@@ -1,0 +1,85 @@
+@media screen and (max-width: 1000px){
+body{
+    #NameBlog{
+        width: 100%;
+        position: absolute;
+        font-size: 7vw;
+        color:white;
+        text-align: center;
+    }
+    aside{
+        display: none;
+    }
+    article{
+        width: 98%;
+        margin: 0;
+        margin-left: 1%;
+        .boxImgArticle{
+            width: 20vh;
+            height: 20vh;
+            .imgArticle{
+                background-image: url(./img/cervello.jpg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                height: 61%;
+                border-radius: 10%;
+            }
+        }
+        #titleOpinion{
+            text-align: center;
+        }
+        .rowOp{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            .boxImgSX{
+                height: 50px;
+                width: 100px;
+                justify-content: center;
+                align-self: center;
+                .imgSX1, .imgSX2, .imgSX3, .imgSX4{
+                    align-self: center;
+                    height: 100%;
+                    width: 20vh;
+                    border-radius: 100%;
+                }
+            }
+        }
+        #column1, #column2, #column3, #column4, #column5{
+            padding-bottom: 5%;
+        }
+    }
+    #footerBG{
+        footer{
+            #footerSpan{
+                #socialFooter{
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    justify-content: center; 
+                    .social{
+                        width: 15%;
+                        padding:0%;
+                        margin: 2% 0%;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+}

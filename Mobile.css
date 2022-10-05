@@ -1,0 +1,64 @@
+@media screen and (max-width: 1000px) {
+  body #NameBlog {
+    width: 100%;
+    position: absolute;
+    font-size: 7vw;
+    color: white;
+    text-align: center;
+  }
+  body aside {
+    display: none;
+  }
+  body article {
+    width: 98%;
+    margin: 0;
+    margin-left: 1%;
+  }
+  body article .boxImgArticle {
+    width: 20vh;
+    height: 20vh;
+  }
+  body article .boxImgArticle .imgArticle {
+    background-image: url(./img/cervello.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 61%;
+    border-radius: 10%;
+  }
+  body article #titleOpinion {
+    text-align: center;
+  }
+  body article .rowOp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  body article .rowOp .boxImgSX {
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-self: center;
+  }
+  body article .rowOp .boxImgSX .imgSX1, body article .rowOp .boxImgSX .imgSX2, body article .rowOp .boxImgSX .imgSX3, body article .rowOp .boxImgSX .imgSX4 {
+    align-self: center;
+    height: 100%;
+    width: 20vh;
+    border-radius: 100%;
+  }
+  body article #column1, body article #column2, body article #column3, body article #column4, body article #column5 {
+    padding-bottom: 5%;
+  }
+  body #footerBG footer #footerSpan #socialFooter {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  body #footerBG footer #footerSpan #socialFooter .social {
+    width: 15%;
+    padding: 0%;
+    margin: 2% 0%;
+  }
+}/*# sourceMappingURL=Mobile.css.map */

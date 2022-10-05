@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px){
+    body{
+        background-color: #E5E9EC;
+        background-image: none;
+        .menu{
+            font-size: 150%;
+            margin-bottom: 0%;
+        }
+        #sky, #violet, #blu, #red, #orange, #yellow{
+            height: 100%;
+            width: 3vw;
+            opacity: 0.6;
+        }
+        #title{
+            font-size: 250%;
+        }
+        #text{
+            padding-top: 10vh;
+            margin-bottom: 10vh;
+            width: 100%;
+            font-size: 150%;
+            height: 50%;
+        }
+        aside{
+            display: flex;
+            flex-direction: row;
+            padding-left: 0%;
+            justify-content:space-between;
+            .social{
+                width: 2em;
+                height: auto;
+            }
+        }
+        
+    }
+}

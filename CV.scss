@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+
+    a{
+    color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    
+    
+    
+    ::-webkit-scrollbar{
+        width: 7px;
+    
+    }
+    ::-webkit-scrollbar-thumb{
+        background: rgb(0,220,255);
+    background: linear-gradient(288deg, rgba(0,220,255,1) 11%, rgba(47,58,255,1) 25%, rgba(144,41,255,1) 41%, rgba(255,44,44,1) 58%, rgba(255,139,44,1) 75%, rgba(255,249,44,1) 90%);
+        border-radius: 100vw;
+    
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: #9a6919;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: transparent;
+        border-radius: 100vw;
+        margin-block: -3px;
+    
+    }
+    
+    
+
+.menu:hover{
+    background-image: linear-gradient(to right ,rgba(0,220,255,1),
+    rgba(47,58,255,1),
+    rgba(144,41,255,1),
+    rgba(255,44,44,1),
+    rgba(255,139,44,1),
+    rgba(255,249,44,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  transparent ; 
+    text-shadow: none;
+    font-weight: 800;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    background-color: #E5E9EC;
+    display: flex;
+    flex-direction: column;   
+    overflow-x: hidden;
+    min-height: 100vh;
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        border-color: grey;
+        border-bottom: inset 1px;
+        box-shadow: 0px 0px 1px;
+        text-shadow: 1px 1px 2px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        .btn-group:hover{
+            cursor:pointer;
+        }
+        .menu{
+            font-size: large;
+            color: black;
+        }
+        .dropdown-menu{
+            transform: translate3d(-40vw, 30px, 0px);
+        }
+    }
+    #background{
+        height: 300px;
+        width: 100%;
+        background-image: url(./img/Sfondo.jpg);
+        background-size: cover;
+        position: relative;
+        margin-bottom: 8%;
+        .blackwall{
+            height: 300px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            #NameBlog{
+                font-size: xxx-large;
+                color:white;
+                text-align: center;
+                align-self: center;
+            }
+        }
+    }
+    #container{
+        display: flex;
+        flex-direction: row;
+        #left{
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-top: -20%;
+            z-index: 1;
+            #boxImg{
+                width: 100%;
+                height: auto;   
+                #img{
+                    height: 450px;
+                    background-image: url(./img/Me.jpeg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                } 
+            }
+            .boxLeft{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                margin-left: 20%;  
+                border-top: solid black 2px;
+                margin-top: 10%;  
+                .title{
+                    width: 100%;
+                    font-weight: 700;
+                    font-size: x-large;
+                }
+                .black{
+                    display: inline-block;
+                    border-radius: 100%;
+                    padding: 1%;
+                    padding-left: 10;
+                    background-color: black;
+                    border: solid black 1px;
+                }
+                .white{
+                    display: inline-block;
+                    border-radius: 100%;
+                    padding: 1%;
+                    border: solid black 1px;
+                } 
+            }
+
+        }
+            #right{
+                flex-basis: 60%;
+                margin-top: -5%;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    .title{
+                        width: 100%;
+                        font-weight: 700;
+                        font-size: x-large;
+                    }
+                    .data{
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content:space-between;
+                        margin-bottom: 2%;
+                        .paragraph{
+                            width: 22vw;
+                            font-size: medium;
+                        }
+                    }
+                    #boxSocial{
+                        display: flex;
+                        justify-content: space-around;
+                        .social{
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: contain;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            border-radius: 10%;
+                        } 
+                    }
+                }  
+                #boxExperience{
+                    border-top: solid black 2px;
+                    margin-top: 3%;
+                    .title{
+                        width: 100%;
+                        font-weight: 700;
+                        font-size: x-large;
+                    }
+                    .titleExp{
+                        font-size: x-large;
+                        margin: 0px;
+                    }
+                }
+                #training{
+                    border-top: solid black 2px;
+                    margin-top: 10%; 
+                    .title{
+                        width: 100%;
+                        font-weight: 700;
+                        font-size: x-large;
+                    }
+                }
+             
+        }
+    }
+    #background2{
+        background-color: white;
+        border-color: grey;
+        border-top: inset 1px;
+        box-shadow: 1px 1px 5px;
+        margin-top: auto;
+        footer{
+            color: black;
+            text-align: center;
+            padding: 0.1%;
+            #footerSpan{
+                font-size: small;
+            }
+        }
+    }
+}
+}
