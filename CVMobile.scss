@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){
+    body{
+    #container{
+        flex-direction: column;
+        #left{
+            margin-top: 0%;
+        }
+        
+        #right{
+            margin-bottom: 2%;
+            display: flex;
+            flex-direction: column-reverse;
+            form{
+                align-self: center;
+                width: 80%;
+                border-top: solid black 2px;
+                text-align: center;
+                .data{
+                    flex-direction: column;
+                    flex-wrap: none;
+                    align-content: center;
+                    .paragraph{
+                        width: 100%;
+                    }
+                }
+            }
+            #boxExperience{
+                align-self: center;
+                width: 80%;
+            }
+            #training{
+                align-self: center;
+                width: 80%;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px){
+body{
+    article{
+    #fristFloorBox{
+        flex-direction: column;
+        #newsImgBox{
+            width: 100%;
+            height: 20vh;
+        }
+    }
+    #secondFloorBox{
+        flex-direction: column;
+        .line{
+            flex-direction: column;
+            align-items: center;
+            .boxImgArticle{
+                min-height: 200px;
+                position: relative;
+                width: 80%;
+                .imgArticle{
+                    background-image: url(./img/cervello.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    height: 100%;
+                    border-radius: 1rem;
+                }
+            }
+        }
+        #opinion{
+            margin: 0%;
+            width: 100%;
+            #titleOpinion{
+                font-size: 200%;
+                margin: 0px;
+            }
+            .rowOp{
+                flex-direction: column;
+                text-align: center;
+                .boxImgSX{
+                    height: 100px;
+                    width: 100vw;
+                    .imgSX1, .imgSX2, .imgSX3, .imgSX4{
+                        height: 100%;
+                        width: 25%;
+                        border-radius: none ;
+                    }
+                }
+            }
+        }
+    }
+    #future{
+        flex-direction: column;
+        #column1, #column2, #column3, #column4, #column5{
+            padding: 7%;
+            width: 100%;
+        }
+    }
+}
+    #footerBG{
+        footer{
+            #footerSpan{
+                #socialFooter{
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    justify-content: center; 
+                    .social{
+                        width: 25%;
+                        padding:0%;
+                        margin: 2% 0%;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+}

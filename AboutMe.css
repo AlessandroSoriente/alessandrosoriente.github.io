@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+* .btn-group:hover {
+  cursor: pointer;
+}
+* ::-webkit-scrollbar {
+  width: 0px;
+}
+* .menu:hover {
+  background-image: linear-gradient(to right, rgb(0, 220, 255), rgb(47, 58, 255), rgb(144, 41, 255), rgb(255, 44, 44), rgb(255, 139, 44), rgb(255, 249, 44));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  font-weight: 800;
+  text-decoration: underline;
+}
+* header > a:hover {
+  text-decoration: none;
+}
+* a:hover {
+  color: black;
+}
+* a {
+  color: black;
+}
+* #title, * p, * span, * em {
+  font-family: "Lucida Grande";
+}
+* body {
+  display: flex;
+  background-image: url(./img/wallpeaper.jpg);
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+* body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-color: grey;
+  border-bottom: inset 1px;
+  box-shadow: 0px 0px 2px;
+  text-shadow: 1px 1px 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+* body header .menu {
+  font-size: large;
+  color: black;
+  margin-bottom: 0%;
+}
+* body header .dropdown-menu {
+  transform: translate3d(-40vw, 30px, 0px);
+}
+* body #boxContainer {
+  display: flex;
+  flex-direction: row;
+}
+* body #boxContainer #container1 {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+  width: 55%;
+  height: 100%;
+  word-spacing: 0.26em;
+}
+* body #boxContainer #container1 #title {
+  padding: 3%;
+  text-align: center;
+  font-size: xx-large;
+}
+* body #boxContainer #container1 #text {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 100%;
+  font-size: large;
+}
+* body #boxContainer #container1 aside {
+  padding-left: 10vh;
+  margin-bottom: 2vh;
+}
+* body #boxContainer #container1 aside .social {
+  width: 4vw;
+  height: auto;
+  padding: 1%;
+}
+* body #boxContainer #string {
+  display: flex;
+}
+* body #boxContainer #string #sky #violet #blu #red #orange #yellow {
+  height: 100%;
+  opacity: 0;
+}
+* body footer {
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0px 0px 2px;
+  text-align: center;
+  font-size: small;
+  justify-content: space-around;
+  margin-top: auto;
+}/*# sourceMappingURL=AboutMe.css.map */

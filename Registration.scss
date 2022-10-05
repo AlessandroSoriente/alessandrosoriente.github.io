@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    .btn-group:hover{
+        cursor:pointer;
+    }
+    .menu:hover{
+        background-image: linear-gradient(to right ,rgba(0,220,255,1),
+        rgba(47,58,255,1),
+        rgba(144,41,255,1),
+        rgba(255,44,44,1),
+        rgba(255,139,44,1),
+        rgba(255,249,44,1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:  transparent ; 
+        text-shadow: none;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    body{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: white;
+            border-color: grey;
+            border-bottom: inset 1px;
+            box-shadow: 0px 0px 5px;
+            text-shadow: 1px 1px 2px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            width: 100%;
+            margin-bottom: 5%;
+            .menu{
+                font-size: large;
+                color: black;
+            }
+            .dropdown-menu{
+                transform: translate3d(-40vw, 30px, 0px);
+            }
+        }
+        form{
+            padding-left: 1%;
+            padding-right: 1%;
+            .btn{
+                background: rgb(0,220,255);
+                background: linear-gradient(288deg, rgba(0,220,255,1) 11%, rgba(47,58,255,1) 25%, rgba(144,41,255,1) 41%, rgba(255,44,44,1) 58%, rgba(255,139,44,1) 75%, rgba(255,249,44,1) 90%);
+                border: transparent;
+            }
+            
+        }
+        footer{
+            width: 100vw;
+            background-color: white;
+            box-shadow: 0px 0px 2px;
+            text-align: center;
+            font-size: small;
+            display: flex;
+            justify-content:space-around;
+            margin-top: auto;
+        }
+    }
+}
